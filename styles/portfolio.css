@@ -1,0 +1,80 @@
+.open-sans-normal {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* nav styles */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 50px;
+}
+
+.nav-titlle {
+  font-weight: 800;
+  font-size: 45px;
+  justify-content: center;
+}
+
+.text-primary {
+  color: #FD6E0A;
+  border: none;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+  align-items: center;
+}
+
+nav ul a {
+  text-decoration: none;
+}
+
+.a-color {
+  color: #474747;
+
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.Hire {
+  background-color: #FD6E0A;
+  font-size: 1em;
+  font-weight: bolder;
+  color: whitesmoke;
+  padding: 10px 35px;
+  border: none;
+}
+
+/* flex */
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 200px;
+}
+
+.header {
+  background-image: url('developer.png'), url('header_bg.png');
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+
+}
+
+.banner ifo {
+  font-size: small;
+  font-weight: 10px;
+  width: 100%;
+}
+
+h3 {
+  text-align: center;
+}
