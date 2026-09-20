@@ -75,6 +75,80 @@ nav ul {
   width: 100%;
 }
 
-h3 {
+/* about details */
+.About-detail {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.about-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-box {
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.about-pera {
   text-align: center;
+  margin: 0 auto;
+  border: 0 200px 200px 10px;
+}
+
+main {
+  max-width: 1140;
+  border-radius: 10px solid green;
+  margin: 0 auto;
+
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.p-information {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.About-detail {
+  width: 50%;
+}
+
+/* about paragrap */
+.peragrap {
+  width: 50%;
+}
+
+.about-items {
+  width: 50%;
+}
+
+/* about items er border */
+.all {
+  max-width: 750px;
+  border: 5px solid whitesmoke;
+  box-shadow: blue;
+  margin: 0 auto;
+  padding: 2px 2px;
+  margin-top: 50px;
+  background-color: lightblue;
+}
+
+.all p,
+.all h5 {
+  margin: 2px 0;
+}
+
+.About-center {
+  text-align: center;
+}
+
+/* .peragrap */
+.peragrap {
+  text-align: center;
+  margin: 0 auto;
 }
