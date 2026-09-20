@@ -120,22 +120,22 @@ body {
 
 /* about paragrap */
 .peragrap {
-  width: 50%;
+  width: 80%;
 }
 
 .about-items {
-  width: 50%;
+  width: 80%;
 }
 
 /* about items er border */
 .all {
   max-width: 750px;
   border: 5px solid whitesmoke;
-  box-shadow: blue;
+  box-shadow: 10px 10px 10px 10px blueviolet;
   margin: 0 auto;
   padding: 2px 2px;
   margin-top: 50px;
-  background-color: lightblue;
+  background-color: rgb(230, 173, 173);
 }
 
 .all p,
@@ -151,4 +151,18 @@ body {
 .peragrap {
   text-align: center;
   margin: 0 auto;
+}
+
+/* tools inriduce */
+.tools-intriduce {
+  display: flex;
+  gap: 20px;
+  margin-top: 80px;
+}
+
+.tools-intriduce>div {
+  border: 5px solid skyblue;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 6px 6px skyblue;
 }
