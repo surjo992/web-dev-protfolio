@@ -166,3 +166,14 @@ body {
   border-radius: 5px;
   box-shadow: 6px 6px 6px 6px skyblue;
 }
+
+/* resume details */
+.all-parents {
+  display: flex;
+  width: 50%;
+  gap: 60px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: azure;
+}
